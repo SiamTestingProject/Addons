@@ -1,5 +1,5 @@
 # Made by : @Arnab431 || github.com/ArnabXD
-# Made For : https://github.com/TeamUltroid/UltroidAddons
+# Made For : https://github.com/SiamTestingProject/Addons
 
 """
 Search animes and manga from anilist.co using @animedb_bot

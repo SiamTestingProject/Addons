@@ -432,7 +432,7 @@ async def get_all_pinned(event):
             txt = f"{t}...."
         else:
             txt = "Go to message."
-        a += f"{c}. <a href=https://t.me/c/{chat_id}/{i.id}>{txt}</a>\n"
+        a += f"{c}. <a href={chat_id}/{i.id}>{txt}</a>\n"
         c += 1
 
     if c == 1:

@@ -301,7 +301,7 @@ async def _(event):
             href = pack.get("href")
             title = pack.text.strip()
             if href:
-                href = f"https://t.me/addstickers/{href.split('/')[-1]}"
+                href = f"{href.split('/')[-1]}"
                 sticks[href] = title
 
         if not sticks:

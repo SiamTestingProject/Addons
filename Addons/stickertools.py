@@ -142,7 +142,7 @@ async def pack_kangish(_):
         LOGS.exception(er)
         return await msg.eor(str(er))
     await msg.eor(
-        get_string("sts_5").format(f"https://t.me/addstickers/{_r_e_s.set.short_name}"),
+        get_string("sts_5").format(f"{_r_e_s.set.short_name}"),
     )
 
 

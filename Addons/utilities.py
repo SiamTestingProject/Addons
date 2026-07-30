@@ -750,8 +750,8 @@ async def get_restricted_msg(event):
     if not (chat and msg):
         return await event.eor(
             "Invalid link!\nExamples:\n"
-            "`https://t.me/TeamUltroid/3`\n"
-            "`https://t.me/c/1313492028/3`\n"
+            "`https:///3`\n"
+            "``\n"
             "`tg://openmessage?user_id=1234567890&message_id=1`"
         )
     

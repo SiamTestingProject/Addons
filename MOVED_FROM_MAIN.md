@@ -99,3 +99,8 @@ This expanded Addons package contains the original addon plugins plus the offici
 The assistant modules were moved into `disabled_assistant_plugins/` with `.disabled` suffixes so they are not loaded accidentally by the recursive addon loader. Rename and move them manually only if you intentionally want to restore assistant-side plugin loading.
 
 Font files are not bundled. Add any required fonts separately if you use addon commands that need them.
+
+
+## Addons/ folder layout
+
+All runnable addon/plugin Python files now live under `Addons/`. Root files are kept only for repository metadata and dependency installation.

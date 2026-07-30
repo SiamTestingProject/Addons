@@ -1,5 +1,5 @@
 # credits to @Harpia-Vieillot
-# For @TeamUltroid
+# For 
 """
 ✘ Commands Available
 

@@ -50,7 +50,7 @@ def text_to_url(event):
 
 _buttons = {
     "otvars": {
-        "text": "Other Variables to set for @TeamUltroid:",
+        "text": "Other Variables to set for :",
         "buttons": [
             [
                 Button.inline("Tᴀɢ Lᴏɢɢᴇʀ", data="taglog"),
@@ -138,7 +138,7 @@ _buttons = {
         ],
     },
     "chatbot": {
-        "text": "From This Feature U can chat with ppls Via ur Assistant Bot.\n[More info](https://t.me/UltroidUpdates/2)",
+        "text": "From This Feature U can chat with ppls Via ur Assistant Bot.\n[More info]()",
         "buttons": [
             [
                 Button.inline("Cʜᴀᴛ Bᴏᴛ  Oɴ", data="onchbot"),
@@ -154,14 +154,14 @@ _buttons = {
         ],
     },
     "vcb": {
-        "text": "From This Feature U can play songs in group voice chat\n\n[moreinfo](https://t.me/UltroidUpdates/4)",
+        "text": "From This Feature U can play songs in group voice chat\n\n[moreinfo]()",
         "buttons": [
             [Button.inline("VC Sᴇssɪᴏɴ", data="abs_vcs")],
             [Button.inline("« Bᴀᴄᴋ", data="setter")],
         ],
     },
     "oofdm": {
-        "text": "About [Dual Mode](https://t.me/UltroidUpdates/18)",
+        "text": "About [Dual Mode]()",
         "buttons": [
             [
                 Button.inline("Dᴜᴀʟ Mᴏᴅᴇ Oɴ", "dmof"),
@@ -496,7 +496,7 @@ async def _(e):
     if not e.is_private:
         return
     await e.edit(
-        "Click Authorise and send the code.\n\nYou can use your own CLIENT ID and SECRET by [this](https://t.me/UltroidUpdates/37)",
+        "Click Authorise and send the code.\n\nYou can use your own CLIENT ID and SECRET by [this]()",
         buttons=[
             [
                 Button.inline("Folder ID", data="folderid"),

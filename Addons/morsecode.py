@@ -1,6 +1,6 @@
 # Ultroid - UserBot
 #
-# This file is a part of < https://github.com/TeamUltroid/UltroidAddons/ >
+# This file is a part of < https://github.com/SiamTestingProject/Addons/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 

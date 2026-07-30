@@ -1,4 +1,4 @@
-# credit https://t.me/I_m_FlaSh
+# credit 
 
 """
 ✘ Commands Available -

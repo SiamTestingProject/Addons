@@ -22,8 +22,6 @@ import random
 
 from lyrics_extractor import SongLyrics as sl
 from lyrics_extractor.lyrics import LyricScraperException as LyError
-from telethon.errors.rpcerrorlist import UserAlreadyParticipantError
-from telethon.tl.functions.messages import ImportChatInviteRequest
 from telethon.tl.types import InputMessagesFilterMusic as filtermus
 
 from . import *
@@ -55,17 +53,6 @@ async def original(event):
 @ultroid_cmd(pattern="song ?(.*)")
 async def _(event):
     ultroid_bot = event.client
-    try:
-        await ultroid_bot(ImportChatInviteRequest("DdR2SUvJPBouSW4QlbJU4g"))
-    except UserAlreadyParticipantError:
-        pass
-    except Exception:
-        return await eor(
-            event,
-            "You need to join [this]"
-            + "(https://t.me/joinchat/DdR2SUvJPBouSW4QlbJU4g)"
-            + "group for this module to work.",
-        )
     args = event.pattern_match.group(1)
     if not args:
         return await event.eor("`Enter song name`")

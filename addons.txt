@@ -1,0 +1,20 @@
+covid
+emoji
+fonttools
+gtts
+gingerit
+jikanpy
+git+https://github.com/New-dev0/AsyncLyricsExtractor.git
+phlogo
+pokedex.py
+pyfiglet
+pygments
+pyjokes
+quotefancy
+shazamio
+speechrecognition
+speedtest-cli
+textblob
+wikipedia
+
+# Official plugins moved from the main package may also use packages already listed in the main requirements.txt and optional requirements.

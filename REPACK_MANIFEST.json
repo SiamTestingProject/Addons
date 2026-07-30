@@ -1,13 +1,24 @@
 {
+  "binary_asset_overlay_path": "Addons/project_root_overlay",
+  "binary_assets_received_from_main": [
+    "resources/extras/inline.jpg",
+    "resources/extras/template.jpg",
+    "resources/extras/ultroid.jpg",
+    "resources/extras/ultroid_assistant.jpg",
+    "resources/extras/ultroid_blank.png",
+    "resources/startup/__pycache__/hf_health.cpython-313.pyc"
+  ],
   "contains": [
     "original addon plugins",
     "official main plugin modules moved to addon root",
     "non-font resource overlay",
     "disabled assistant plugin archive"
   ],
+  "contains_binary_assets_from_main": true,
   "default_addons_repo": "https://github.com/SiamTestingProject/Addons",
   "font_files_removed": [],
   "latest_change": "Checked addon package for Pyrogram usage; no runnable addon files required code changes for Kurigram.",
+  "latest_related_main_change": "Main deployment package now supports in-bot Telethon SESSION generation before userbot startup.",
   "official_plugins_added": [
     "_chatactions.py",
     "_help.py",
@@ -98,7 +109,7 @@
     "Verified no addon Python files import pyrogram directly",
     "Marked package as Kurigram-compatible through the main deployment dependency conversion"
   ],
-  "updated_at_utc": "2026-07-30T11:18:16.054211+00:00",
+  "updated_at_utc": "2026-07-30T13:20:44.889670+00:00",
   "updated_by": "ChatGPT",
   "validation_summary": {
     "addon_folder_python_files": [
@@ -246,15 +257,5 @@
     "layout": "All runnable addon/plugin .py files are under Addons/. Root files are metadata/dependency files only.",
     "python_file_count": 139,
     "root_python_files": []
-  },
-  "contains_binary_assets_from_main": true,
-  "binary_asset_overlay_path": "Addons/project_root_overlay",
-  "binary_assets_received_from_main": [
-    "resources/extras/inline.jpg",
-    "resources/extras/template.jpg",
-    "resources/extras/ultroid.jpg",
-    "resources/extras/ultroid_assistant.jpg",
-    "resources/extras/ultroid_blank.png",
-    "resources/startup/__pycache__/hf_health.cpython-313.pyc"
-  ]
+  }
 }

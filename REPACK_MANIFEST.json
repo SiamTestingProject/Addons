@@ -98,7 +98,7 @@
     "Verified no addon Python files import pyrogram directly",
     "Marked package as Kurigram-compatible through the main deployment dependency conversion"
   ],
-  "updated_at_utc": "2026-07-30T10:45:11Z",
+  "updated_at_utc": "2026-07-30T11:18:16.054211+00:00",
   "updated_by": "ChatGPT",
   "validation_summary": {
     "addon_folder_python_files": [
@@ -246,5 +246,15 @@
     "layout": "All runnable addon/plugin .py files are under Addons/. Root files are metadata/dependency files only.",
     "python_file_count": 139,
     "root_python_files": []
-  }
+  },
+  "contains_binary_assets_from_main": true,
+  "binary_asset_overlay_path": "Addons/project_root_overlay",
+  "binary_assets_received_from_main": [
+    "resources/extras/inline.jpg",
+    "resources/extras/template.jpg",
+    "resources/extras/ultroid.jpg",
+    "resources/extras/ultroid_assistant.jpg",
+    "resources/extras/ultroid_blank.png",
+    "resources/startup/__pycache__/hf_health.cpython-313.pyc"
+  ]
 }

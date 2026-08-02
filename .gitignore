@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.session
+*.session-journal
+.vscode/
+modules/loaded/*
+!modules/loaded/.gitkeep
+broken_modules/
+firstlaunch.temp
+temp/*
+!temp/.gitignore
+nohup.out
+triggers/
+userdata/
+localhost_run_output.txt
